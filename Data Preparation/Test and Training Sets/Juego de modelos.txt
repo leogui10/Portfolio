@@ -1,0 +1,38 @@
+Juego de modelos
+
+Estructura de la Actividad con el Juego de Cartas
+
+1. Inicio del Juego y Preparación:
+   - Reparte 10 cartas a cada jugador (estudiante).
+   - Cada jugador observa sus cartas en secreto.
+
+2. **División de Cartas en Conjuntos de Entrenamiento y Prueba**:
+   - Cada jugador divide sus cartas en dos grupos: 7 cartas forman el conjunto de entrenamiento y 3 cartas forman el conjunto de prueba.
+
+3. **Creación del Modelo Inicial**:
+   - Basado en el conjunto de entrenamiento, cada jugador crea una regla o modelo. Por ejemplo, un modelo puede ser "predigo que la mayoría de las cartas serán rojas".
+
+4. **Primera Ronda de Predicciones**:
+   - Los jugadores pasan su conjunto de prueba al jugador a su derecha.
+   - Sin ver las cartas de prueba recibidas, cada jugador hace una predicción basada en su modelo inicial.
+
+5. **Evaluación y Registro de Aciertos**:
+   - Los jugadores revisan las cartas de prueba que recibieron y registran si sus predicciones fueron correctas o no.
+
+6. **Primeras 10 Rondas sin Ajuste del Modelo**:
+   - Realiza 10 rondas siguiendo los pasos 4 y 5, manteniendo el mismo modelo sin realizar ajustes.
+   - Calcula la precisión de las predicciones de cada jugador (número de aciertos / total de predicciones).
+
+7. **Ajuste del Modelo**:
+   - Después de las primeras 10 rondas, los jugadores pueden ajustar su modelo basándose en las observaciones y resultados obtenidos.
+
+8. **Siguientes 10 Rondas con Modelo Ajustado**:
+   - Realiza otras 10 rondas utilizando el modelo ajustado para hacer predicciones.
+   - Continúa registrando los aciertos y calcula la nueva precisión de cada jugador después del ajuste del modelo.
+
+9. **Evaluación Final y Discusión**:
+   - Al final de las 20 rondas, compara la precisión de las predicciones antes y después del ajuste del modelo.
+   - Discute cómo el ajuste del modelo afectó la precisión y qué estrategias de ajuste resultaron en mejoras.
+   - Reflexiona sobre cómo esta actividad simula conceptos de minería de datos como la división de datos, el aprendizaje supervisado, la evaluación de modelos, y la importancia del ajuste de modelos.
+
+Esta estructura de actividad proporciona una experiencia práctica e interactiva para enseñar conceptos fundamentales de minería de datos, fomentando la comprensión a través de la experimentación y discusión.
